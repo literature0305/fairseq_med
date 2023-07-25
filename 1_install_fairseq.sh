@@ -6,6 +6,7 @@ apt-get install git cmake automake autoconf build-essential gawk wget
 # install Anaconda
 wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 ./Anaconda3-2022.10-Linux-x86_64.sh
+. /root/anaconda3/bin/activate
 
 # git clone fairseq
 git clone https://github.com/facebookresearch/fairseq.git
